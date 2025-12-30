@@ -36,6 +36,7 @@ local items = {
   iron = {mod="minecraft", type="item", price="6e"},
   gold = {mod="minecraft", type="item", price="3e"},
   steel = {mod="mekanism", type="item", price="7e"},
+  engine = {mod="vs2", type="blocks,modded", price="8e"},
   air = {free=true}
 }
 
