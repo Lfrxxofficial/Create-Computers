@@ -17,6 +17,8 @@ function drawnotfoundscreen()
   term.setCursorPos(1,1)
   print("Sorry You Have Got Us Here")
   print("We dont have this item")
+    sleep(10)
+  shell.run("clear")
 end
 
 function drawitsfreescreen()
@@ -24,6 +26,8 @@ function drawitsfreescreen()
   term.setCursorPos(1,1)
   print("Bruh.")
   print("Obviously ITS FREE")
+    sleep(10)
+  shell.run("clear")
 end
 
 local items = {
